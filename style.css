@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400");
+@import url("https://fonts.googleapis.com/css?family=Sofia:300,400");
+@import url("https://fonts.googleapis.com/css?family=Metal+Menia");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto lab";
+  color: #777777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: rgb(19, 77, 87);
+  text-align: center;
+  text-decoration: none;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgb(219, 78, 27, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+.nav.icon {
+  display: none;
+}
+.nav a:visited {
+  background-color: #858c7b;
+}
+.nav a:hover {
+  background-color: rgb(247, 226, 230, 0.3);
+}
+.nav a:active {
+  background-color: rgb(247, 174, 187);
+}
+
+.main-header {
+  background-image: url("icon/glasses\ snellen\ chart.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
+}
+span {  
+  color: rgb(219, 78, 27);
+}
+.clinic-name {
+  text-align: center;
+  margin: 0;
+  font-size: 6em;
+  font-family: Sofia;
+  color: rgb(19, 77, 87);
+}
+.motto-name {
+  text-align: center;
+  margin: 0;
+  font-size: 1em;
+  font-family: Sofia;
+}
+.motto-name i {
+  color: rgb(219, 78, 27);
+}
+.header-intro {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+  color: rgb(19, 77, 87);
+}
+.service-list {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+  font-family: Raleway;
+  color: rgb(19, 77, 87);
+  display: block;
+  width: 40em;
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-bottom: 3em;
+}
+
+.content-section {
+  margin: 1em;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: rgb(219, 78, 27);
+  text-align: center;
+  font-size: 2.5em;
+}
+.header-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.btn-main {
+  background-color: rgb(190, 226, 233);
+  border: none;
+  color: rgb(219, 78, 27);
+  padding: 14px, 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 1em;
+  border-radius: 12px;
+  height: 10%;
+}
+.footer-section {
+  font-family: "Sofia";
+  background-color: rgb(190, 226, 233);
+  font-weight: normal;
+  color: rgb(219, 78, 27);
+  text-align: center;
+  font-size: 1em;
+  padding-top: 1em;
+}
+.footer-main {
+  word-spacing: 0.2em;
+  color: rgb(19, 77, 87);
+  font-family: "Sofia";
+}
+.footer-media {
+  font-style: italic;
+  color: rgb(19, 77, 87);
+  font-family: "Sofia";
+}
+.foot-small {
+  color: rgb(219, 78, 27);
+  font-family: "Sofia";
+}
+.about-section {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: "Roboto Slab";
+  color: rgb(19, 77, 87);
+  display: block;
+  width: 50em;
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-bottom: 3em;
+}
+.about-list {
+  text-align: center;
+  margin: 1em;
+  font-size: 1em;
+  font-family: "Roboto Slab";
+  color: rgb(19, 77, 87);
+  list-style-type: none;
+}
+input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: rgb(191, 226, 231);
+  outline: none;
+}
+.label-name {
+  margin: 1em;
+  font-size: 1em;
+  font-family: Raleway;
+  color: rgb(19, 77, 87);
+  display: inline;
+}
